@@ -1,1 +1,10 @@
+# Clone your repo
+git clone https://github.com/sudharsan0424/sudharsan0424.github.io.git
+cd sudharsan0424.github.io
 
+# Delete the file
+git rm resume
+
+# Commit and push
+git commit -m "Delete resume file"
+git push origin main
